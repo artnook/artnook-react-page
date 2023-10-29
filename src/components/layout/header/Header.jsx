@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <HeaderWrap className="header-wrap">
       <Heading as={"h1"}>
-        <Link to="/">Open Sea</Link>
+        <Link to="/">Logo</Link>
       </Heading>
       <Gnb />
     </HeaderWrap>
@@ -39,7 +39,9 @@ const HeaderWrap = styled.header`
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  padding: 0 20px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
 
   h1 {
     a {

@@ -12,19 +12,19 @@ const Gnb = () => {
       <ul>
         <li className={location.pathname === "/" ? "active" : ""}>
           <Link to="/">
-            <AiFillHome /> main
+            <AiFillHome /> Home
           </Link>
         </li>
         <li className={location.pathname === "/drops" ? "active" : ""}>
           <Link to="/drops">
             <AiOutlineShoppingCart />
-            drops
+            Style
           </Link>
         </li>
         <li className={location.pathname === "/ranking" ? "active" : ""}>
           <Link to="/ranking">
             <BsBarChartFill />
-            ranking
+            Shop
           </Link>
         </li>
       </ul>
