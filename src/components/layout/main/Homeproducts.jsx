@@ -42,8 +42,104 @@ const HomeProducts = () => {
               </div>
             </a>
           </div>
+          <div className={styles.Productitem}>
+            <a href="#" className={styles.Iteminner}>
+              <div className={styles.Thumbbox}>
+                <img src={thumb1} alt="supreme" />
+              </div>
+              <div className={styles.Infobox}>
+                <div className={styles.Brand}>
+                  <p className={styles.Brandtext}>Supreme</p>
+                </div>
+                <p className={styles.Name}>
+                  Supreme x Stone Island Denim Trucker Jacket Reflective - 23FW
+                </p>
+                <div className={styles.Price}>
+                  <div className={styles.Amountlg}>
+                    <em className={styles.Num}>1,824,000원</em>
+                  </div>
+                  <div className={styles.Desc}>
+                    <p>즉시 구매가</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div className={styles.Productitem}>
+            <a href="#" className={styles.Iteminner}>
+              <div className={styles.Thumbbox}>
+                <img src={thumb1} alt="supreme" />
+              </div>
+              <div className={styles.Infobox}>
+                <div className={styles.Brand}>
+                  <p className={styles.Brandtext}>Supreme</p>
+                </div>
+                <p className={styles.Name}>
+                  Supreme x Stone Island Denim Trucker Jacket Reflective - 23FW
+                </p>
+                <div className={styles.Price}>
+                  <div className={styles.Amountlg}>
+                    <em className={styles.Num}>1,824,000원</em>
+                  </div>
+                  <div className={styles.Desc}>
+                    <p>즉시 구매가</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div className={styles.Productitem}>
+            <a href="#" className={styles.Iteminner}>
+              <div className={styles.Thumbbox}>
+                <img src={thumb1} alt="supreme" />
+              </div>
+              <div className={styles.Infobox}>
+                <div className={styles.Brand}>
+                  <p className={styles.Brandtext}>Supreme</p>
+                </div>
+                <p className={styles.Name}>
+                  Supreme x Stone Island Denim Trucker Jacket Reflective - 23FW
+                </p>
+                <div className={styles.Price}>
+                  <div className={styles.Amountlg}>
+                    <em className={styles.Num}>1,824,000원</em>
+                  </div>
+                  <div className={styles.Desc}>
+                    <p>즉시 구매가</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div className={styles.Productitem}>
+            <a href="#" className={styles.Iteminner}>
+              <div className={styles.Thumbbox}>
+                <img src={thumb1} alt="supreme" />
+              </div>
+              <div className={styles.Infobox}>
+                <div className={styles.Brand}>
+                  <p className={styles.Brandtext}>Supreme</p>
+                </div>
+                <p className={styles.Name}>
+                  Supreme x Stone Island Denim Trucker Jacket Reflective - 23FW
+                </p>
+                <div className={styles.Price}>
+                  <div className={styles.Amountlg}>
+                    <em className={styles.Num}>1,824,000원</em>
+                  </div>
+                  <div className={styles.Desc}>
+                    <p>즉시 구매가</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
-        <div className={styles.Btnproduct}></div>
+      </div>
+      <div className={styles.Btnproduct}>
+        <a href="#" className={styles.Btnoutlinegrey}>
+          더보기
+        </a>
       </div>
     </div>
   );
