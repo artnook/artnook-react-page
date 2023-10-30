@@ -4,7 +4,6 @@ import Header from "./header/Header";
 import History from "../common/History";
 import Title from "../common/Tilte";
 import styled from "styled-components";
-import { Children } from "react";
 
 const Layout = ({ pagename, title, children }) => {
   return (
@@ -30,7 +29,6 @@ const Wrap = styled.div`
 const MainWrap = styled.main`
   /* height: calc(100vh - 80px); */
   height: 200vh;
-  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
 `;
