@@ -71,7 +71,7 @@ const HomeProducts = () => {
           <Productitem>
             <Link to="#" className="Iteminner">
               <Thumbbox>
-                <img src={thumb1} alt="supreme" />
+                <Image src={thumb1} alt="supreme" />
               </Thumbbox>
               <Infobox>
                 <Brand>

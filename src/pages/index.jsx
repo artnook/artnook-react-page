@@ -5,6 +5,8 @@ import intro from "../assets/images/swiper1.jpg";
 import intro2 from "../assets/images/swiper3.jpg";
 import intro3 from "../assets/images/swiper2.jpg";
 import Shortcutitemswrap from "../components/layout/main/Shortcutitemswrap";
+import Homeproducts from "../components/layout/main/Homeproducts";
+import Shortcutcollection from "../components/layout/main/Shortcutcollection";
 import styled from "styled-components";
 
 import "swiper/css";
@@ -13,12 +15,16 @@ import "swiper/css/navigation";
 // import required modules
 import { Navigation } from "swiper/modules";
 import { Container, Image } from "@chakra-ui/react";
-import Homeproducts from "../components/layout/main/Homeproducts";
+import Bannersingle from "../components/layout/main/Bannersingle";
 
 const Home = () => {
   return (
     <Layout title="Home" pagename="home">
-      <SwiperStyled navigation={true} className="mySwiper">
+      <SwiperStyled
+        navigation={true}
+        modules={[Navigation]}
+        className="mySwiper"
+      >
         <Swiper1>
           <Image
             src={intro}
@@ -72,12 +78,22 @@ const Home = () => {
       </SwiperStyled>
       <Shortcutitemswrap></Shortcutitemswrap>
       <Homeproducts></Homeproducts>
+      <Shortcutcollection></Shortcutcollection>
+      <Bannersingle></Bannersingle>
+      <Homeproducts></Homeproducts>
     </Layout>
   );
 };
 
 const SwiperStyled = styled(Swiper)`
   height: 460px;
+  .swiper-button-prev {
+    color: #fff;
+  }
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after {
+    color: #fff;
+  }
 `;
 
 const Swiper1 = styled(SwiperSlide)`
