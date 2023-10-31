@@ -27,8 +27,7 @@ const Wrap = styled.div`
 `;
 
 const MainWrap = styled.main`
-  /* height: calc(100vh - 80px); */
-  height: 200vh;
+  /* height: 200vh; */
   margin-left: auto;
   margin-right: auto;
 `;

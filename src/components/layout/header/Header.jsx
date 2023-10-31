@@ -2,23 +2,23 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Gnb from "./Gnb";
 import { Heading } from "@chakra-ui/react";
-import gsap from "gsap";
+// import gsap from "gsap";
 
 const Header = () => {
   // 스크롤 이벤트 핸들러
-  const handleScroll = () => {
-    const scrollY = window.scrollY;
-    const headerWrap = document.querySelector(".header-wrap");
+  // const handleScroll = () => {
+  //   const scrollY = window.scrollY;
+  //   const headerWrap = document.querySelector(".header-wrap");
 
-    if (scrollY >= 100) {
-      gsap.to(headerWrap, { backgroundColor: "#fff", duration: 0.5 });
-    } else {
-      gsap.to(headerWrap, { backgroundColor: "transparent", duration: 0.5 });
-    }
-  };
+  //   if (scrollY >= 100) {
+  //     gsap.to(headerWrap, { backgroundColor: "#fff", duration: 0.5 });
+  //   } else {
+  //     gsap.to(headerWrap, { backgroundColor: "transparent", duration: 0.5 });
+  //   }
+  // };
 
-  // 이벤트 리스너 등록
-  window.addEventListener("scroll", handleScroll);
+  // // 이벤트 리스너 등록
+  // window.addEventListener("scroll", handleScroll);
 
   return (
     <HeaderWrap className="header-wrap">
@@ -42,6 +42,7 @@ const HeaderWrap = styled.header`
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
+  z-index: 10000;
 
   h1 {
     a {
