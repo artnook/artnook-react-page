@@ -91,6 +91,7 @@ const Home = () => {
 
 const SwiperStyled = styled(Swiper)`
   height: 460px;
+  z-index: 20000;
   .swiper-button-prev {
     color: #fff;
   }

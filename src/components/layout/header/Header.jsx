@@ -43,6 +43,7 @@ const HeaderWrap = styled.header`
   margin-left: auto;
   margin-right: auto;
   z-index: 10000;
+  background-color: #fff;
 
   h1 {
     a {

@@ -28,6 +28,7 @@ const Banneritem = styled.div`
   background-color: #87cbe0;
   position: relative;
   margin-top: 5%;
+  z-index: 20000;
 `;
 
 const Iteminner = styled.div`

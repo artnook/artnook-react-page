@@ -301,6 +301,7 @@ const Desc = styled.div`
 const Btnproduct = styled.div`
   padding: 0 32px;
   text-align: center;
+  padding-bottom: 50px;
   .Btnoutlinegrey {
     margin-top: 20px;
     padding: 0 30px;
