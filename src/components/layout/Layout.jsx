@@ -24,6 +24,7 @@ const Layout = ({ pagename, title, children }) => {
 const Wrap = styled.div`
   min-height: 100vh;
   padding-top: 80px;
+  padding-bottom: 80px;
 `;
 
 const MainWrap = styled.main`

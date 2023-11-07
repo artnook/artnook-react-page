@@ -1,4 +1,4 @@
-import { Link } from "@chakra-ui/react";
+import { Image, Link } from "@chakra-ui/react";
 import React from "react";
 import styled from "styled-components";
 
@@ -79,56 +79,66 @@ const Footer = () => {
             </Menubox>
           </Footermenu>
         </Servicearea>
-        <div className="Corporationarea">
-          <ul className="Termlist">
-            <li className="Termitem">
-              <a href="#">회사소개</a>
-            </li>
-            <li className="Termitem">
-              <a href="#">인재채용</a>
-            </li>
-            <li className="Termitem">
-              <a href="#">제휴제안</a>
-            </li>
-            <li className="Termitem">
-              <a href="#">이용약관</a>
-            </li>
-            <li className="Termitem">
-              <a href="#">개인정보처리방침</a>
-            </li>
-          </ul>
-          <div className="Footersns">
-            <div className="Snsbox">
-              <a href="#" aria-label="인스타그램" className="Sns">
-                <img src="" alt="#" />
-              </a>
-              <a href="#" aria-label="페이스북" className="Sns">
-                <img src="" alt="#" />
-              </a>
-              <a href="#" aria-label="카카오톡" className="Sns">
-                <img src="" alt="#" />
-              </a>
-            </div>
+        <Corporationarea>
+          <Termlist>
+            <Termitem>
+              <Link href="#" className="Term_link">
+                회사소개
+              </Link>
+            </Termitem>
+            <Termitem>
+              <Link href="#" className="Term_link">
+                인재채용
+              </Link>
+            </Termitem>
+            <Termitem>
+              <Link href="#" className="Term_link">
+                제휴제안
+              </Link>
+            </Termitem>
+            <Termitem>
+              <Link href="#" className="Term_link">
+                이용약관
+              </Link>
+            </Termitem>
+            <Termitem>
+              <Link href="#" className="Term_link">
+                개인정보처리방침
+              </Link>
+            </Termitem>
+          </Termlist>
+          <Footersns>
+            <Snsbox>
+              <Link href="#" aria-label="인스타그램" className="Sns">
+                <Image src="" alt="#" />
+              </Link>
+              <Link href="#" aria-label="페이스북" className="Sns">
+                <Image src="" alt="#" />
+              </Link>
+              <Link href="#" aria-label="카카오톡" className="Sns">
+                <Image src="" alt="#" />
+              </Link>
+            </Snsbox>
             <div className="Btnbusiness">
               사업자정보
               <img src="" alt="#" />
             </div>
-          </div>
+          </Footersns>
           <div className="Businessinfo">
             <div className="Infolist">
-              <dl className="Infoitem">
-                <dt class="Businesstitle">
+              <Infoitem className="Infoitem">
+                <Businesstitle>
                   크림 주식회사 · 대표 김창욱<span class="blank"></span>
                   사업자등록번호 : 570-88-01618 <a href="#">사업자정보확인</a>
                   <span class="blank"></span>통신판매업 : 제
                   2021-성남분당C-0093호<span class="blank"></span>사업장소재지 :
                   경기도 성남시 분당구 분당내곡로 131 판교테크원 타워1, 8층
                   <span class="blank"></span>호스팅 서비스 : 네이버 클라우드 ㈜
-                </dt>
-              </dl>
+                </Businesstitle>
+              </Infoitem>
             </div>
           </div>
-        </div>
+        </Corporationarea>
         <div className="Noticearea"></div>
       </Inner>
     </Footerlg>
@@ -240,5 +250,59 @@ const Menuitem = styled.li`
     font-size: 14px;
     letter-spacing: -0.21px;
   }
+`;
+
+const Corporationarea = styled.div`
+  margin-top: 30px;
+  position: relative;
+`;
+
+const Termlist = styled.ul`
+  display: inline-flex;
+  padding-bottom: 16px;
+`;
+
+const Termitem = styled.li`
+  margin-right: 20px;
+  .Term_link {
+    color: #000;
+    display: block;
+    font-size: 14px;
+    letter-spacing: -0.21px;
+    &:nth-child(5) {
+      font-weight: 700;
+    }
+  }
+`;
+
+const Footersns = styled.div`
+  position: absolute;
+  right: 0;
+  top: 0;
+`;
+
+const Snsbox = styled.div`
+  font-size: 0;
+  .Sns {
+    display: inline-block;
+    Image {
+      height: 24px;
+      width: 24px;
+    }
+  }
+`;
+
+const Infoitem = styled.dl`
+  margin-right: 0;
+`;
+
+const Businesstitle = styled.dt`
+  color: rgba(34, 34, 34, 0.5);
+  float: left;
+  font-size: 13px;
+  letter-spacing: -0.07px;
+  line-height: 20px;
+  margin-right: 4px;
+  max-width: 653px;
 `;
 export default Footer;
