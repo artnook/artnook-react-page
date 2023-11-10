@@ -49,6 +49,7 @@ const HeaderWrap = styled.header`
     a {
       font-size: 30px;
       font-weight: bold;
+      color: #000;
     }
   }
 `;

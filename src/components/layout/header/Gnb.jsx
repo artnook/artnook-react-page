@@ -11,21 +11,13 @@ const Gnb = () => {
     <GnbWapper>
       <ul>
         <li className={location.pathname === "/" ? "active" : ""}>
-          <Link to="/">
-            <AiFillHome /> Home
-          </Link>
+          <Link to="/">Home</Link>
         </li>
-        <li className={location.pathname === "/drops" ? "active" : ""}>
-          <Link to="/drops">
-            <AiOutlineShoppingCart />
-            Style
-          </Link>
+        <li className={location.pathname === "/style" ? "active" : ""}>
+          <Link to="/style">Style</Link>
         </li>
-        <li className={location.pathname === "/ranking" ? "active" : ""}>
-          <Link to="/ranking">
-            <BsBarChartFill />
-            Shop
-          </Link>
+        <li className={location.pathname === "/shop" ? "active" : ""}>
+          <Link to="/shop">Shop</Link>
         </li>
       </ul>
 
@@ -53,7 +45,7 @@ const GnbWapper = styled.nav`
       }
       &.active {
         a {
-          color: var(--primary-dark);
+          color: #000;
           font-weight: 700;
           svg {
             color: var(--primary);
@@ -66,10 +58,10 @@ const GnbWapper = styled.nav`
         gap: 10px;
         height: 80px;
         padding: 0 20px;
-        color: var(--secondary-grey-600);
-        font-weight: 500;
+        color: #000;
+        font-weight: 400;
         &:hover {
-          color: var(--primary-dark);
+          color: #000;
         }
       }
       svg {

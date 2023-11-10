@@ -1,6 +1,9 @@
 import { Image, Link } from "@chakra-ui/react";
 import React from "react";
 import styled from "styled-components";
+import sns1 from "../../../assets/images/footer/Facebook_black.svg";
+import sns2 from "../../../assets/images/footer/Instagram_black.svg";
+import sns3 from "../../../assets/images/footer/YouTube_black.svg";
 
 const Footer = () => {
   return (
@@ -110,19 +113,15 @@ const Footer = () => {
           <Footersns>
             <Snsbox>
               <Link href="#" aria-label="인스타그램" className="Sns">
-                <Image src="" alt="#" />
+                <Image src={sns1} alt="#" className="Ico" />
               </Link>
               <Link href="#" aria-label="페이스북" className="Sns">
-                <Image src="" alt="#" />
+                <Image src={sns2} alt="#" className="Ico" />
               </Link>
               <Link href="#" aria-label="카카오톡" className="Sns">
-                <Image src="" alt="#" />
+                <Image src={sns3} alt="#" className="Ico" />
               </Link>
             </Snsbox>
-            <div className="Btnbusiness">
-              사업자정보
-              <img src="" alt="#" />
-            </div>
           </Footersns>
           <div className="Businessinfo">
             <div className="Infolist">
@@ -282,12 +281,12 @@ const Footersns = styled.div`
 `;
 
 const Snsbox = styled.div`
-  font-size: 0;
   .Sns {
     display: inline-block;
-    Image {
+    .Ico {
       height: 24px;
       width: 24px;
+      margin-left: 15px;
     }
   }
 `;

@@ -2,6 +2,10 @@ import { Image, Link, Text } from "@chakra-ui/react";
 import React from "react";
 
 import hpro1 from "../../../assets/images/northface.jpg";
+import hpro2 from "../../../assets/images/nikeairforce.jpg";
+import hpro3 from "../../../assets/images/northface2.jpg";
+import hpro4 from "../../../assets/images/nikeacg.jpg";
+import hpro5 from "../../../assets/images/northface3.jpg";
 import styled from "styled-components";
 
 const Homeproductstwo = () => {
@@ -45,18 +49,18 @@ const Homeproductstwo = () => {
               <Thumbox>
                 <Product>
                   <Pictureproductimg>
-                    <Image objectFit="cover" src={hpro1} alt="#" />
+                    <Image objectFit="cover" src={hpro2} alt="#" />
                   </Pictureproductimg>
                 </Product>
               </Thumbox>
               <Infobox>
                 <Brand>
-                  <Brandtext> The North Face </Brandtext>
+                  <Brandtext> Nike </Brandtext>
                 </Brand>
-                <Name>The North Face 1996 Eco Nuptse Jacket Black</Name>
+                <Name>Nike Air Force 1 '07 WB Flax</Name>
                 <Price>
                   <Amount>
-                    <Num> 293,000원 </Num>
+                    <Num> 142,000원 </Num>
                   </Amount>
                   <Desc>
                     <Text>즉시 구매가</Text>
@@ -70,7 +74,7 @@ const Homeproductstwo = () => {
               <Thumbox>
                 <Product>
                   <Pictureproductimg>
-                    <Image objectFit="cover" src={hpro1} alt="#" />
+                    <Image objectFit="cover" src={hpro3} alt="#" />
                   </Pictureproductimg>
                 </Product>
               </Thumbox>
@@ -78,10 +82,10 @@ const Homeproductstwo = () => {
                 <Brand>
                   <Brandtext> The North Face </Brandtext>
                 </Brand>
-                <Name>The North Face 1996 Eco Nuptse Jacket Black</Name>
+                <Name>The North Face 1996 Eco Nuptse Jacket Real Black</Name>
                 <Price>
                   <Amount>
-                    <Num> 293,000원 </Num>
+                    <Num> 283,000원 </Num>
                   </Amount>
                   <Desc>
                     <Text>즉시 구매가</Text>
@@ -95,18 +99,20 @@ const Homeproductstwo = () => {
               <Thumbox>
                 <Product>
                   <Pictureproductimg>
-                    <Image objectFit="cover" src={hpro1} alt="#" />
+                    <Image objectFit="cover" src={hpro4} alt="#" />
                   </Pictureproductimg>
                 </Product>
               </Thumbox>
               <Infobox>
                 <Brand>
-                  <Brandtext> The North Face </Brandtext>
+                  <Brandtext> Nike </Brandtext>
                 </Brand>
-                <Name>The North Face 1996 Eco Nuptse Jacket Black</Name>
+                <Name>
+                  Nike ACG Therma-Fit ADV Lunar Lake Puffer Jacket Balck - Asia
+                </Name>
                 <Price>
                   <Amount>
-                    <Num> 293,000원 </Num>
+                    <Num> 311,000원 </Num>
                   </Amount>
                   <Desc>
                     <Text>즉시 구매가</Text>
@@ -124,7 +130,7 @@ const Homeproductstwo = () => {
                       objectFit="cover"
                       width="100%"
                       height="100%"
-                      src={hpro1}
+                      src={hpro5}
                       alt="#"
                     />
                   </Pictureproductimg>
@@ -134,10 +140,13 @@ const Homeproductstwo = () => {
                 <Brand>
                   <Brandtext> The North Face </Brandtext>
                 </Brand>
-                <Name>The North Face 1996 Eco Nuptse Jacket Black</Name>
+                <Name>
+                  (W) The North Face White Label Novelty Nuptse Down Jacket
+                  Black
+                </Name>
                 <Price>
                   <Amount>
-                    <Num> 293,000원 </Num>
+                    <Num> 294,000원 </Num>
                   </Amount>
                   <Desc>
                     <Text>즉시 구매가</Text>

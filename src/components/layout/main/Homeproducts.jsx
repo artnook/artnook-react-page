@@ -1,7 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 
-import thumb1 from "../../../assets/images/suprem1.png";
+import thumb1 from "../../../assets/images/adidas.jpg";
+import thumb2 from "../../../assets/images/suprem1.png";
+import thumb3 from "../../../assets/images/bomeronike.jpg";
+import thumb4 from "../../../assets/images/shotnorthface.jpg";
+import thumb5 from "../../../assets/images/yellow nike.jpg";
 import { Link } from "react-router-dom";
 import { Image, Text } from "@chakra-ui/react";
 
@@ -29,14 +33,14 @@ const HomeProducts = () => {
               </Thumbbox>
               <Infobox>
                 <Brand>
-                  <Brandtext>Supreme</Brandtext>
+                  <Brandtext>Adidas</Brandtext>
                 </Brand>
                 <Name>
-                  Supreme x Stone Island Denim Trucker Jacket Reflective - 23FW
+                  Adidas x Wales Bonner Pony Tonal Samba Core Black Cream White{" "}
                 </Name>
                 <Price>
                   <Amountlg>
-                    <Num>1,824,000원</Num>
+                    <Num>279,000원</Num>
                   </Amountlg>
                   <Desc>
                     <p>즉시 구매가</p>
@@ -48,7 +52,7 @@ const HomeProducts = () => {
           <Productitem>
             <Link to="#" className="Iteminner">
               <Thumbbox>
-                <img src={thumb1} alt="supreme" />
+                <img src={thumb2} alt="supreme" />
               </Thumbbox>
               <Infobox>
                 <Brand>
@@ -71,18 +75,16 @@ const HomeProducts = () => {
           <Productitem>
             <Link to="#" className="Iteminner">
               <Thumbbox>
-                <Image src={thumb1} alt="supreme" />
+                <Image src={thumb3} alt="supreme" />
               </Thumbbox>
               <Infobox>
                 <Brand>
-                  <Brandtext>Supreme</Brandtext>
+                  <Brandtext>Nike</Brandtext>
                 </Brand>
-                <Name>
-                  Supreme x Stone Island Denim Trucker Jacket Reflective - 23FW
-                </Name>
+                <Name>Nike Zoom Vomero 5 Light Bone and Phantom </Name>
                 <Price>
                   <Amountlg>
-                    <Num>1,824,000원</Num>
+                    <Num>190,000원</Num>
                   </Amountlg>
                   <Desc>
                     <p>즉시 구매가</p>
@@ -94,18 +96,18 @@ const HomeProducts = () => {
           <Productitem>
             <Link to="#" className="Iteminner">
               <Thumbbox>
-                <Image src={thumb1} alt="supreme" />
+                <Image src={thumb4} alt="supreme" />
               </Thumbbox>
               <Infobox>
                 <Brand>
-                  <Brandtext>Supreme</Brandtext>
+                  <Brandtext>The North Face</Brandtext>
                 </Brand>
                 <Name>
-                  Supreme x Stone Island Denim Trucker Jacket Reflective - 23FW
+                  (W) The North Face White Label Novelty Nuptse Down Vest Brown{" "}
                 </Name>
                 <Price>
                   <Amountlg>
-                    <Num>1,824,000원</Num>
+                    <Num>249,000원</Num>
                   </Amountlg>
                   <Desc>
                     <p>즉시 구매가</p>
@@ -117,18 +119,18 @@ const HomeProducts = () => {
           <Productitem>
             <Link to="#" className="Iteminner">
               <Thumbbox>
-                <img src={thumb1} alt="supreme" />
+                <img src={thumb5} alt="supreme" />
               </Thumbbox>
               <Infobox>
                 <Brand>
-                  <Brandtext>Supreme</Brandtext>
+                  <Brandtext>Nike</Brandtext>
                 </Brand>
                 <Name>
-                  Supreme x Stone Island Denim Trucker Jacket Reflective - 23FW
+                  Nike x Off-White Air Force 1 Mid SP Leather Varsity Maize{" "}
                 </Name>
                 <Price>
                   <Amountlg>
-                    <Num>1,824,000원</Num>
+                    <Num>220,000원</Num>
                   </Amountlg>
                   <Desc>
                     <p>즉시 구매가</p>
@@ -224,6 +226,7 @@ const Productitem = styled.div`
 const Thumbbox = styled.div`
   img {
     border-radius: 10px;
+    background-color: #f4f4f4;
   }
 `;
 
@@ -262,7 +265,7 @@ const Name = styled.p`
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: normal;
-  width: 290px;
+  width: 254px;
 `;
 
 const Price = styled.div`

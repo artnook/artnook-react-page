@@ -1,7 +1,14 @@
 import React from "react";
 import { Menu, MenuButton } from "@chakra-ui/react";
 import styled from "styled-components";
+import { useLocation } from "react-router-dom";
 const History = () => {
+  const location = useLocation();
+
+  if (location.pathname !== "/") {
+    return null;
+  }
+
   return (
     <NavLnb>
       <Menu>
