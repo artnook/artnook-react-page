@@ -18,7 +18,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Navigation } from "swiper/modules";
-import { Container, Image } from "@chakra-ui/react";
+import { Image } from "@chakra-ui/react";
 import Bannersingle from "../components/layout/main/Bannersingle";
 
 const Home = () => {
