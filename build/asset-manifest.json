@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/artnook-react-page/static/css/main.76c223c6.css",
-    "main.js": "/artnook-react-page/static/js/main.3e89c269.js",
+    "main.js": "/artnook-react-page/static/js/main.096f7117.js",
     "static/js/787.10094764.chunk.js": "/artnook-react-page/static/js/787.10094764.chunk.js",
     "static/media/lotateouter.gif": "/artnook-react-page/static/media/lotateouter.3018686fca9953cac9ca.gif",
     "static/media/swiper2.jpg": "/artnook-react-page/static/media/swiper2.d22cafed871582c33bc1.jpg",
@@ -44,11 +44,11 @@
     "static/media/YouTube_black.svg": "/artnook-react-page/static/media/YouTube_black.988854fd233fa8f21131b9efc7a1e41c.svg",
     "static/media/Facebook_black.svg": "/artnook-react-page/static/media/Facebook_black.164be302c7e3131ad8637532c667ce36.svg",
     "main.76c223c6.css.map": "/artnook-react-page/static/css/main.76c223c6.css.map",
-    "main.3e89c269.js.map": "/artnook-react-page/static/js/main.3e89c269.js.map",
+    "main.096f7117.js.map": "/artnook-react-page/static/js/main.096f7117.js.map",
     "787.10094764.chunk.js.map": "/artnook-react-page/static/js/787.10094764.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.76c223c6.css",
-    "static/js/main.3e89c269.js"
+    "static/js/main.096f7117.js"
   ]
 }
