@@ -64,15 +64,11 @@ const Shop = () => {
           </TabListStyle>
           <TabPanels>
             <Container>
-              <TabPanel>
-                <p>one!</p>
-              </TabPanel>
-              <TabPanel>
-                <p>two!</p>
-              </TabPanel>
-              <TabPanel>
-                <p>three!</p>
-              </TabPanel>
+              <div className="Search_trend_container">
+              <div className="Trend_keywords_grid"></div>
+              </div>
+            </Container>
+            <Container>
             </Container>
           </TabPanels>
         </Tabs>
